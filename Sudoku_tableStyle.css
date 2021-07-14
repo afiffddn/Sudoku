@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* Sudoku_tableStyle.css CSS Document */
+
+
+/* Table Style */
+
+table.Schedule{
+	background:#666;
+	border: 10px;
+	border-collapse:collapse;
+	font-size: 1em;
+	font-family:Tahoma, Geneva, sans-serif;
+	width:50%;
+}
+
+/* Table Cell Style */
+
+table.Schedule th, table.Schedule td{
+	border: 2px solid black;
+	padding:15px;
+	vertical-align:top;
+}
+
+/* Table Head --*/
+table.Schedule th{
+	background:white;
+	border:none;
+}
+
+/* Table Descrip --*/
+table.Schedule td{
+	color:white;
+}
+
+
+/* Table Caption Style --*/
+
+table.Schedule caption {
+	caption-side:top;
+	text-align:center;
+}
